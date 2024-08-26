@@ -8,6 +8,10 @@
     width: 100vw;
     min-height: 7rem;
     background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 a{
