@@ -21,7 +21,7 @@
 
 .a{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .logo-container img{
@@ -46,7 +46,7 @@ body{
 
 .main-section{
     max-width: 70%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
     background-color: white;
     padding: 1rem;
@@ -59,16 +59,44 @@ body{
 
 }
 
-.p{
+.about-para1{
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.about-para2{
+   
+    font-size: 1.1rem;
 }
 
 .item-list{
     padding: 2rem;
 }
 
+#item-heading{
+    font-size: 1.25rem;
+}
+
 .item-list ul{
     padding-top: 1rem;
     text-align: start;
+}
+
+.items{
+    font-size: 1.1rem;
+    padding: 0.09rem;
+}
+
+.image1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    
+}
+
+.image1 img{
+    height: 20rem;
+    width: 30rem;
+    margin: 1.5rem;
 }
