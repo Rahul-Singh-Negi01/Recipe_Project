@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header-container{
+    /* max-width: 100vw; */
+    height: 10rem;
+    background-color: rgb(34, 127, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+   
+    
+}
+
+.a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header-container img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    
+}
+
+body{
+    background-color: rgb(189, 212, 204);
+}

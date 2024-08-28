@@ -6,13 +6,13 @@
 }
 
 .header-container{
-    max-width: 100vw;
+    
     height: 10rem;
-    margin: 0 auto;
+   
     background-color: rgb(34, 127, 96);
     display: flex;
     justify-content: space-between;
-   
+    align-items: center;
     padding: 2rem;
    
     text-align:  center;
@@ -39,14 +39,12 @@
 }
 
 body{
-    height: 100%;
-    width: 100%;
     background-color: rgb(131, 201, 178);
 }
 
 .main-section{
-    max-width: 70%;
-    /* height: 100vh; */
+    max-width: 50%;
+    /* height: auto; */
     margin: 0 auto;
     background-color: white;
     padding: 1rem;
@@ -54,19 +52,34 @@ body{
     
 }
 
+.main-heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 2.5rem;
+}
+
 .about-us{
-    padding: 1rem;
+    padding: 1.2rem;
+    
 
 }
 
+.about-Heading{
+    font-size: 1.6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
 .about-para1{
-    padding: 1rem;
-    font-size: 1.3rem;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about-para2{
    
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .item-list{
@@ -87,16 +100,42 @@ body{
     padding: 0.09rem;
 }
 
-.image1 {
+.home-heading{
+    padding-top: 1.5rem;   
+}
+
+.food-images {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 3rem;
     
+    
 }
 
-.image1 img{
+.food-images button{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    
+    
+}
+
+.food-images a{
+    padding-bottom: 2rem;
+    color: red;
+    font-size: 1rem;
+}
+
+.food-images img{
     height: 20rem;
     width: 30rem;
     margin: 1.5rem;
+}
+
+.contect-container{
+    max-width: 100vw;
+    height: 10rem;
+   
+    background-color: rgb(34, 127, 96);
+    display: flex;
 }
